@@ -28,4 +28,12 @@ Currently the best tool to collect system state information acrros multiple plat
 
 Ansible itself is written in Python, and does have a python API, however, it's use by external applications seems to be discouraged, and it's clear it isn't stable enough to depend upon.
 
-However, we know output from the setup module can be dumped as yaml. So using that as the method to pass state information into our model. 
+However, we know output from the setup module can be dumped as yaml. So using that as the method to pass state information into our model.
+
+#### Possible leads on integration  
+Ansible output callback plugins
+https://docs.ansible.com/ansible/devel/plugins/callback.html
+
+Specifically around developing these output plugins.
+https://docs.ansible.com/ansible/devel/dev_guide/developing_plugins.html
+
