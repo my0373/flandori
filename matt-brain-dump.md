@@ -37,3 +37,10 @@ https://docs.ansible.com/ansible/devel/plugins/callback.html
 Specifically around developing these output plugins.
 https://docs.ansible.com/ansible/devel/dev_guide/developing_plugins.html
 
+Ansible modules top format output as JSON
+https://github.com/ansible/ansible/blob/devel/lib/ansible/plugins/callback/json.py
+
+And also YAML
+https://github.com/ansible/ansible/blob/devel/lib/ansible/plugins/callback/yaml.py
+
+Need to play around with this and see how it can be used as an interface.
